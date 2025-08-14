@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News
+    </title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta name="theme-color" content="#005891">
+    <meta name="msapplication-navbutton-color" content="#005891">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#005891">
+    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+</html>
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <div class="menu vertical-scroll">
+        <div class="menu__container">
+          <div class="container">
+            <div class="menu__top"> 
+              <div class="close-btn close-menu-js"> 
+                <div class="icon">
+                  <svg>
+                    <use xlink:href="sprite.svg#close"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="title title_h4">Menu      </div>
+            </div>
+            <div class="menu__flex-container">
+              <div class="menu__flex-col menu__flex-col_menu-list b-radius">
+                <div class="menu__list"> 
+                  <ul> 
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="products.html">Products</a></li>
+                    <li> <a href="news.html">News</a></li>
+                    <li> <a href="about.html">About Us</a></li>
+                    <li> <a href="contacts.html">Contacts</a></li>
+                    <li> <a href="faq.html">FAQ</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="secondary-block b-radius secondary-block_contacts">
+                <div class="secondary-block__list"> 
+                  <ul>
+                    <li><span class="secondary-block__label">Contact us</span><a class="secondary-block__content" href="tel:+90 552 349 31 88">+90 552 349 31 88</a>
+                    </li>
+                    <li><span class="secondary-block__label">For questions</span><a class="secondary-block__content" href="mail:info@grow.com">info@grow.com</a>
+                    </li>
+                    <li><span class="secondary-block__label">Where to find us</span>
+                      <div class="secondary-block__content">720005, г. Бишкек, Турусбекова, 82/1</div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="social"> 
+                  <ul>
+                    <li> <a href="#" target="_blank"> 
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#whatsapp"></use>
+                          </svg>
+                        </div><span>Whatsapp</span></a></li>
+                    <li> <a href="#" target="_blank"> 
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#telegram"></use>
+                          </svg>
+                        </div><span>Telegram</span></a></li>
+                    <li> <a href="#" target="_blank"> 
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#instagram"></use>
+                          </svg>
+                        </div><span>Instagram</span></a></li>
+                    <li> <a href="#" target="_blank"> 
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#facebook"></use>
+                          </svg>
+                        </div><span>Facebook</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header class="header">
+        <div class="container"> 
+          <div class="header__flex-container"> 
+            <div class="header__flex-col">
+              <div class="hamburger hamburger-js">
+                <div class="icon">
+                  <svg>
+                    <use xlink:href="sprite.svg#hamburger"></use>
+                  </svg>
+                </div>
+              </div><a class="logo" href="index.html"><img src="images/dist/logo.svg" alt=""></a>
+            </div>
+            <div class="header__flex-col"> 
+              <div class="select">
+                <div class="select__selected select-js"> <span>en</span>
+                  <div class="icon">
+                    <svg>
+                      <use xlink:href="sprite.svg#angle"> </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="select__dropdown"> <a class="select__option" href="#">en</a><a class="select__option" href="#">ru</a></div>
+              </div>
+              <button class="btn btn_gray trigger-js sm-hide" data-name="log-in">Log In </button><a class="btn btn_gradient trigger-js sm-hide" href="#" data-name="sing-up">Sign Up</a>
+            </div>
+          </div>
+          <div class="header__btn-line-break sm-show">
+            <button class="btn btn_gray trigger-js" data-name="log-in">Log In </button><a class="btn btn_gradient trigger-js" href="#" data-name="sing-up">Sign Up</a>
+          </div>
+        </div>
+      </header>
+      <div class="page">
+        <div class="container">
+          <div class="breadcrumbs"> 
+            <ul> 
+              <li> <a href="#">Homepage</a></li>
+              <li>News</li>
+            </ul>
+          </div>
+          <div class="title-wrap"> 
+            <div class="title title_h2 title_f-weight-medium">NEWS</div>
+          </div>
+          <div class="filter">
+            <div class="filter__col horizontal-scroll">
+              <div class="filter__list">
+                <div class="filter__item btn">View all</div>
+                <div class="filter__item btn active">label</div>
+                <div class="filter__item btn">label</div>
+                <div class="filter__item btn">label</div>
+              </div>
+            </div>
+            <div class="filter__col"> 
+              <div class="filter__sorting"> 
+                <p>Sort by:</p>
+                <div class="select">
+                  <div class="select__selected select-js"> <span>Selected</span>
+                    <div class="icon">
+                      <svg>
+                        <use xlink:href="sprite.svg#angle"> </use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="select__dropdown"> <a class="select__option" href="#">option</a><a class="select__option" href="#">option</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="records-wrap"> 
+            <div class="records-wrap__col records-wrap__col_w33p">
+              <div class="record">
+                <div class="record__item record__item_high-md record__item_additionaly record__item_hover b-radius"><img class="record__img" src="images/dist/news1.webp" alt="Black Seed Oil Vitamins Boost Immunity">
+                  <div class="record__content">
+                    <div class="record__top record__top_justify-end">
+                      <div class="additionaly additionaly_lemon">2 September, 2024</div>
+                    </div>
+                    <div class="record__bottom">  <a class="btn btn_full-w btn_accent" href="news-detail.html"> <span>Read more</span>
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#arrowtopright"> </use>
+                          </svg>
+                        </div></a></div>
+                  </div>
+                </div>
+                <div class="record__item-desc"><a class="title title_f-weight-medium title_h6" href="news-detail.html">Black Seed Oil Vitamins Boost Immunity</a></div>
+              </div>
+            </div>
+            <div class="records-wrap__col records-wrap__col_w33p">
+              <div class="record">
+                <div class="record__item record__item_high-md record__item_additionaly record__item_hover b-radius"><img class="record__img" src="images/dist/news2.webp" alt="Black Seed Oil Improves Skin Health">
+                  <div class="record__content">
+                    <div class="record__top record__top_justify-end">
+                      <div class="additionaly additionaly_lemon">26 August, 2024</div>
+                    </div>
+                    <div class="record__bottom">  <a class="btn btn_full-w btn_accent" href="news-detail.html"> <span>Read more</span>
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#arrowtopright"> </use>
+                          </svg>
+                        </div></a></div>
+                  </div>
+                </div>
+                <div class="record__item-desc"><a class="title title_f-weight-medium title_h6" href="news-detail.html">Black Seed Oil Improves Skin Health</a></div>
+              </div>
+            </div>
+            <div class="records-wrap__col records-wrap__col_w33p">
+              <div class="record">
+                <div class="record__item record__item_high-md record__item_additionaly record__item_hover b-radius"><img class="record__img" src="images/dist/news3.webp" alt="Black Seed Oil Vitamins Combat Fatigue">
+                  <div class="record__content">
+                    <div class="record__top record__top_justify-end">
+                      <div class="additionaly additionaly_lemon">11 August, 2024</div>
+                    </div>
+                    <div class="record__bottom">  <a class="btn btn_full-w btn_accent" href="news-detail.html"> <span>Read more</span>
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#arrowtopright"> </use>
+                          </svg>
+                        </div></a></div>
+                  </div>
+                </div>
+                <div class="record__item-desc"><a class="title title_f-weight-medium title_h6" href="news-detail.html">Black Seed Oil Vitamins Combat Fatigue</a></div>
+              </div>
+            </div>
+            <div class="records-wrap__col records-wrap__col_w33p">
+              <div class="record">
+                <div class="record__item record__item_high-md record__item_additionaly record__item_hover b-radius"><img class="record__img" src="images/dist/news4.webp" alt="Black Seed Oil is a Source of Essential Vitamins">
+                  <div class="record__content">
+                    <div class="record__top record__top_justify-end">
+                      <div class="additionaly additionaly_lemon">5 August, 2024</div>
+                    </div>
+                    <div class="record__bottom">  <a class="btn btn_full-w btn_accent" href="news-detail.html"> <span>Read more</span>
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#arrowtopright"> </use>
+                          </svg>
+                        </div></a></div>
+                  </div>
+                </div>
+                <div class="record__item-desc"><a class="title title_f-weight-medium title_h6" href="news-detail.html">Black Seed Oil is a Source of Essential Vitamins</a></div>
+              </div>
+            </div>
+            <div class="records-wrap__col records-wrap__col_w33p">
+              <div class="record">
+                <div class="record__item record__item_high-md record__item_additionaly record__item_hover b-radius"><img class="record__img" src="images/dist/news5.webp" alt="New Black Seed Oil Vitamins Now Available">
+                  <div class="record__content">
+                    <div class="record__top record__top_justify-end">
+                      <div class="additionaly additionaly_lemon">21 Jule, 2024</div>
+                    </div>
+                    <div class="record__bottom">  <a class="btn btn_full-w btn_accent" href="news-detail.html"> <span>Read more</span>
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#arrowtopright"> </use>
+                          </svg>
+                        </div></a></div>
+                  </div>
+                </div>
+                <div class="record__item-desc"><a class="title title_f-weight-medium title_h6" href="news-detail.html">New Black Seed Oil Vitamins Now Available</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="pagination"> 
+            <ul> 
+              <li class="disabled"><a class="btn btn_sm btn_gray" href="#">
+                  <div class="icon">
+                    <svg>
+                      <use xlink:href="sprite.svg#arrowleft"> </use>
+                    </svg>
+                  </div><span>Previous</span></a></li>
+              <li class="active"><a href="#">1</a></li>
+              <li> <a href="#">2</a></li>
+              <li> <a href="#">3</a></li>
+              <li>...</li>
+              <li> <a href="#">7</a></li>
+              <li> <a href="#">24</a></li>
+              <li> <a class="btn btn_sm btn_gray" href="#"><span>Next</span>
+                  <div class="icon">
+                    <svg>
+                      <use xlink:href="sprite.svg#arrowright"> </use>
+                    </svg>
+                  </div></a></li>
+            </ul>
+          </div><br>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container"> <a class="btn btn_accent btn_full-w" href="#"><span>Get in touch</span>
+          <div class="icon">
+            <svg>
+              <use xlink:href="sprite.svg#arrowtopright"></use>
+            </svg>
+          </div></a>
+        <div class="secondary-block b-radius secondary-block_contacts">
+          <div class="secondary-block__flex-container">
+            <div class="secondary-block__flex-col secondary-block__flex-col_w50p">
+              <div class="secondary-block__list"> 
+                <ul>
+                  <li><span class="secondary-block__label">Contact us</span><a class="secondary-block__content" href="tel:+90 552 349 31 88">+90 552 349 31 88</a>
+                  </li>
+                  <li><span class="secondary-block__label">For questions</span><a class="secondary-block__content" href="mail:info@grow.com">info@grow.com</a>
+                  </li>
+                  <li><span class="secondary-block__label">Where to find us</span>
+                    <div class="secondary-block__content">720005, г. Бишкек, Турусбекова, 82/1</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="secondary-block__flex-col secondary-block__flex-col_w50p">
+              <div class="footer__menu">
+                <ul> 
+                  <li> <a href="index.html">Home</a></li>
+                  <li> <a href="products.html">Products</a></li>
+                  <li> <a href="news.html">News</a></li>
+                  <li> <a href="about.html">About Us</a></li>
+                  <li> <a href="contacts.html">Contacts</a></li>
+                  <li> <a href="faq.html">FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="social"> 
+            <ul>
+              <li> <a href="#" target="_blank"> 
+                  <div class="icon">
+                    <svg>
+                      <use xlink:href="sprite.svg#whatsapp"></use>
+                    </svg>
+                  </div><span>Whatsapp</span></a></li>
+              <li> <a href="#" target="_blank"> 
+                  <div class="icon">
+                    <svg>
+                      <use xlink:href="sprite.svg#telegram"></use>
+                    </svg>
+                  </div><span>Telegram</span></a></li>
+              <li> <a href="#" target="_blank"> 
+                  <div class="icon">
+                    <svg>
+                      <use xlink:href="sprite.svg#instagram"></use>
+                    </svg>
+                  </div><span>Instagram</span></a></li>
+              <li> <a href="#" target="_blank"> 
+                  <div class="icon">
+                    <svg>
+                      <use xlink:href="sprite.svg#facebook"></use>
+                    </svg>
+                  </div><span>Facebook</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__additional-info"> 
+          <div class="footer__additional-info-col">
+            <div class="footer__additional-info-list"> 
+              <ul> 
+                <li><img src="images/dist/payment1.svg" alt="visa"></li>
+                <li><img src="images/dist/payment2.svg" alt="mastercard"></li>
+                <li><img src="images/dist/payment3.svg" alt="optima bank"></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__additional-info-col"> 
+            <div class="footer__additional-info-list"> 
+              <ul> 
+                <li><img src="images/dist/award1.svg" alt="GMP"></li>
+                <li><img src="images/dist/award2.svg" alt="ISO"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom"> 
+          <p class="copyright">© 2024 Grow. All rights reserved. </p>
+          <ul class="footer__additional-links">
+            <li>          <a href="#">User Agreement</a></li>
+            <li>          <a href="#">Terms of Use</a></li>
+            <li>          <a href="#">Offer Agreement</a></li>
+            <li>          <a href="#">Privacy and Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="authentication popup-wrap called-js" data-name="sing-up">
+      <div class="popup popup_sing-up b-radius"> 
+        <div class="title-and-btn title-and-btn_sing-up">
+          <div class="title title_h4">Sign Up</div>
+          <div class="close-btn"> 
+            <div class="icon">
+              <svg>
+                <use xlink:href="sprite.svg#close"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <form action="">
+          <div class="form"> 
+                        <div class="form__input-group input input_w50p error">
+                          <label for="input1">Referral ID</label>
+                          <div class="input__field">
+                            <input type="text" id="input1" placeholder="Referral ID">
+                          </div>
+                          <div class="input__message">Lorem, ipsum.  </div>
+                        </div>
+                        <div class="form__input-group input input_w50p success">
+                          <label for="input2">TIN</label>
+                          <div class="input__field">
+                            <input type="text" id="input2" placeholder="TIN">
+                          </div>
+                          <div class="input__message">Lorem, ipsum.  </div>
+                        </div>
+                        <div class="form__input-group input input_w50p">
+                          <label for="input3">First Name</label>
+                          <div class="input__field">
+                            <input type="text" id="input3" placeholder="First Name">
+                          </div>
+                          <div class="input__message">Lorem, ipsum.  </div>
+                        </div>
+                        <div class="form__input-group input input_w50p">
+                          <label for="input4">Last Name</label>
+                          <div class="input__field">
+                            <input type="text" id="input4" placeholder="Last Name">
+                          </div>
+                          <div class="input__message">Lorem, ipsum.  </div>
+                        </div>
+            <div class="form__input-group input input_w50p">
+              <label for="phone">Phone</label>
+              <div class="input__field input__field_phone">
+                <input class="phone-js" name="phone" type="tel" id="phone">
+              </div>
+              <div class="output-error">Неверный номер. Повторите попытку.</div>
+              <div class="output-success">Номер действительный! </div>
+            </div>
+                        <div class="form__input-group input input_w50p">
+                          <label for="input5">email</label>
+                          <div class="input__field">
+                            <input type="text" id="input5" placeholder="email">
+                          </div>
+                          <div class="input__message">Lorem, ipsum.  </div>
+                        </div>
+            <div class="form__input-group input input_w50p">
+              <label for="pass">Password</label>
+              <div class="input__field input__field_icon input__field_pass">
+                <input type="password" placeholder="•••••••" id="pass" name="pass">
+                <div class="icon input-pass-js">
+                  <svg class="open">
+                    <use xlink:href="sprite.svg#eye"></use>
+                  </svg>
+                  <svg class="close">
+                    <use xlink:href="sprite.svg#eyeclose"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="input__message">Lorem, ipsum.    </div>
+            </div>
+            <div class="form__input-group input input_w50p">
+              <label for="repeat-pass">Repeat Password</label>
+              <div class="input__field input__field_icon input__field_pass">
+                <input type="password" placeholder="•••••••" id="repeat-pass" name="repeat pass">
+                <div class="icon input-pass-js">
+                  <svg class="open">
+                    <use xlink:href="sprite.svg#eye"></use>
+                  </svg>
+                  <svg class="close">
+                    <use xlink:href="sprite.svg#eyeclose"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="input__message">Lorem, ipsum.</div>
+            </div>
+          </div>
+          <p class="popup__text text-center">By clicking "Sign Up", you confirm that you have read and agreed <br> to our  <a href="#">Terms of </a>Use and    <a href="#">Privacy Policy</a>.</p>
+          <div class="btn-wrap btn-wrap_center">
+            <button class="btn btn_accent" type="submit">Sign Up</button>
+          </div>
+        </form>
+        <div class="authentication__login"> 
+          <p>Already have an account?</p><a class="btn btn_gray btn_sm" href="#">Log In </a>
+        </div>
+      </div>
+    </div>
+    <div class="authentication popup-wrap called-js" data-name="log-in">
+      <div class="popup popup_log-in b-radius"> 
+        <div class="title-and-btn title-and-btn_log-in">
+          <div class="title title_h4">Log In</div>
+          <div class="close-btn"> 
+            <div class="icon">
+              <svg>
+                <use xlink:href="sprite.svg#close"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <form action="">
+                    <div class="form__input-group input">
+                      <label for="input1">Login</label>
+                      <div class="input__field">
+                        <input type="text" id="input1" placeholder="ID or Email">
+                      </div>
+                      <div class="input__message">Lorem, ipsum.  </div>
+                    </div>
+          <div class="form__input-group input">
+            <label for="pass">Password</label>
+            <div class="input__field input__field_icon input__field_pass">
+              <input type="password" placeholder="•••••••" id="pass" name="pass">
+              <div class="icon input-pass-js">
+                <svg class="open">
+                  <use xlink:href="sprite.svg#eye"></use>
+                </svg>
+                <svg class="close">
+                  <use xlink:href="sprite.svg#eyeclose"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="input__message">Lorem, ipsum.    </div>
+          </div>
+          <p class="popup__text text-center"><a href="#">Forgot your password?</a></p>
+          <div class="btn-wrap btn-wrap_center">
+            <button class="btn btn_accent" type="submit">Log In</button>
+          </div>
+        </form>
+        <div class="authentication__login"> 
+          <p>Don't have an account?</p><a class="btn btn_gray btn_sm" href="#">Sign Up </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/app.min.js"> </script>
+</body>

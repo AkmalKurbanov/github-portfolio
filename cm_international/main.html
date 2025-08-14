@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home
+    </title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta name="theme-color" content="#005891">
+    <meta name="msapplication-navbutton-color" content="#005891">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#005891">
+    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"> </script>
+  </head>
+</html>
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <header class="header" id="header">
+        <div class="container">
+          <div class="header__flex-wrap d-flex justify-between"><a class="header__logo d-flex justify-center align-center mr-20" href="#"><img src="images/dist/header_logo.svg" alt=""></a>
+            <div class="header__control-panel d-if align-center justify-center"> <a class="btn btn_bordered mr-15" href="#">Sign In</a>
+              <div class="lang mr-30"> 
+                <div class="lang__selected d-if align-center justify-center">en</div>
+                <div class="icon ml-5">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.707 15.707C12.5195 15.8945 12.2652 15.9998 12 15.9998C11.7348 15.9998 11.4805 15.8945 11.293 15.707L5.63601 10.05C5.5405 9.95776 5.46431 9.84742 5.41191 9.72541C5.3595 9.60341 5.33191 9.47219 5.33076 9.33941C5.3296 9.20663 5.3549 9.07495 5.40519 8.95205C5.45547 8.82916 5.52972 8.7175 5.62361 8.62361C5.71751 8.52972 5.82916 8.45547 5.95205 8.40519C6.07495 8.3549 6.20663 8.3296 6.33941 8.33076C6.47219 8.33191 6.60341 8.3595 6.72541 8.41191C6.84742 8.46431 6.95776 8.5405 7.05001 8.63601L12 13.586L16.95 8.63601C17.1386 8.45385 17.3912 8.35305 17.6534 8.35533C17.9156 8.35761 18.1664 8.46278 18.3518 8.64819C18.5372 8.8336 18.6424 9.08441 18.6447 9.34661C18.647 9.6088 18.5462 9.86141 18.364 10.05L12.707 15.707Z" fill="white"></path>
+                  </svg>
+                </div>
+                <div class="lang__dropdown"> <a class="lang__option" href="#"> en</a><a class="lang__option" href="#"> ru</a></div>
+              </div><a class="cart-btn d-if align-center justify-center mr-20" href="#"> 
+                <div class="cart-btn__count d-if align-center justify-center">0</div>
+                <div class="icon"> 
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30C23.2843 30 30 23.2843 30 15Z" fill="#686868"></path>
+                    <path d="M23.06 13.4009V13.8384C23.06 14.2212 22.7592 14.4946 22.4037 14.4946H22.185L21.4467 19.4986C21.3647 20.1548 20.8178 20.6196 20.1616 20.6196H10.1811C9.5248 20.6196 8.97797 20.1548 8.89594 19.4986L8.185 14.4946H7.96625C7.58344 14.4946 7.31 14.2212 7.31 13.8384V13.4009C7.31 13.0454 7.58344 12.7446 7.96625 12.7446H9.7983L12.7241 8.7525C12.9975 8.3423 13.5444 8.2603 13.9272 8.5611C14.3373 8.8345 14.4194 9.3814 14.1186 9.7642L11.9584 12.7446H18.3842L16.2241 9.7642C15.9233 9.3814 16.0053 8.8345 16.4155 8.5611C16.7983 8.2603 17.3452 8.3423 17.6186 8.7525L20.5444 12.7446H22.4037C22.7592 12.7446 23.06 13.0454 23.06 13.4009ZM15.8412 18.2134V15.1509C15.8412 14.7954 15.5405 14.4946 15.185 14.4946C14.8022 14.4946 14.5287 14.7954 14.5287 15.1509V18.2134C14.5287 18.5962 14.8022 18.8696 15.185 18.8696C15.5405 18.8696 15.8412 18.5962 15.8412 18.2134ZM18.9037 18.2134V15.1509C18.9037 14.7954 18.603 14.4946 18.2475 14.4946C17.8647 14.4946 17.5912 14.7954 17.5912 15.1509V18.2134C17.5912 18.5962 17.8647 18.8696 18.2475 18.8696C18.603 18.8696 18.9037 18.5962 18.9037 18.2134ZM12.7787 18.2134V15.1509C12.7787 14.7954 12.478 14.4946 12.1225 14.4946C11.7397 14.4946 11.4662 14.7954 11.4662 15.1509V18.2134C11.4662 18.5962 11.7397 18.8696 12.1225 18.8696C12.478 18.8696 12.7787 18.5962 12.7787 18.2134Z" fill="white"></path>
+                  </svg>
+                </div></a>
+              <div class="hamburger d-if"><span>
+                  <svg width="35" height="3" viewBox="0 0 35 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 1.5C0 0.671573 0.671573 0 1.5 0H33.5C34.3284 0 35 0.671573 35 1.5C35 2.32843 34.3284 3 33.5 3H1.5C0.671574 3 0 2.32843 0 1.5Z" fill="black"></path>
+                  </svg></span><span>
+                  <svg width="35" height="3" viewBox="0 0 35 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 1.5C0 0.671573 0.671573 0 1.5 0H33.5C34.3284 0 35 0.671573 35 1.5C35 2.32843 34.3284 3 33.5 3H1.5C0.671574 3 0 2.32843 0 1.5Z" fill="black"></path>
+                  </svg></span><span>
+                  <svg width="35" height="3" viewBox="0 0 35 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 1.5C0 0.671573 0.671573 0 1.5 0H33.5C34.3284 0 35 0.671573 35 1.5C35 2.32843 34.3284 3 33.5 3H1.5C0.671574 3 0 2.32843 0 1.5Z" fill="black"></path>
+                  </svg></span></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <header class="header header_sticky">
+        <div class="menu">
+          <div class="menu__close"> 
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.06066 26.0607C1.47487 25.4749 1.47487 24.5251 2.06066 23.9393L24.6881 1.31192C25.2738 0.726156 26.2236 0.726137 26.8094 1.31192C27.3952 1.89771 27.3952 2.84748 26.8094 3.43324L4.18198 26.0607C3.59619 26.6464 2.64645 26.6464 2.06066 26.0607Z" fill="#fff"></path>
+              <path d="M1.93934 1.06066C2.52513 0.474874 3.47487 0.474874 4.06066 1.06066L26.6881 23.6881C27.2738 24.2738 27.2739 25.2236 26.6881 25.8094C26.1023 26.3952 25.1525 26.3952 24.5668 25.8094L1.93934 3.18198C1.35355 2.59619 1.35355 1.64645 1.93934 1.06066Z" fill="#fff"></path>
+            </svg>
+          </div>
+          <div class="menu__control-panel align-center"> 
+            <div class="lang mr-30"> 
+              <div class="lang__selected d-if align-center justify-center">en</div>
+              <div class="icon ml-5">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.707 15.707C12.5195 15.8945 12.2652 15.9998 12 15.9998C11.7348 15.9998 11.4805 15.8945 11.293 15.707L5.63601 10.05C5.5405 9.95776 5.46431 9.84742 5.41191 9.72541C5.3595 9.60341 5.33191 9.47219 5.33076 9.33941C5.3296 9.20663 5.3549 9.07495 5.40519 8.95205C5.45547 8.82916 5.52972 8.7175 5.62361 8.62361C5.71751 8.52972 5.82916 8.45547 5.95205 8.40519C6.07495 8.3549 6.20663 8.3296 6.33941 8.33076C6.47219 8.33191 6.60341 8.3595 6.72541 8.41191C6.84742 8.46431 6.95776 8.5405 7.05001 8.63601L12 13.586L16.95 8.63601C17.1386 8.45385 17.3912 8.35305 17.6534 8.35533C17.9156 8.35761 18.1664 8.46278 18.3518 8.64819C18.5372 8.8336 18.6424 9.08441 18.6447 9.34661C18.647 9.6088 18.5462 9.86141 18.364 10.05L12.707 15.707Z" fill="white"></path>
+                </svg>
+              </div>
+              <div class="lang__dropdown"> <a class="lang__option" href="#"> en</a><a class="lang__option" href="#"> ru</a></div>
+            </div>
+          </div>
+          <ul>
+            <li class="mb-50"><a href="#">Home</a></li>
+            <li class="mb-50"><a href="#">About Us</a></li>
+            <li class="mb-50"><a href="#">Products</a></li>
+            <li class="mb-50"><a href="#">Our Blog</a></li>
+            <li class="mb-50"><a href="#">Contacts</a></li>
+          </ul>
+          <div class="text-center"><a class="btn btn_bordered" href="#">Sign In</a></div>
+        </div>
+        <div class="container">
+          <div class="header__flex-wrap d-flex justify-between"><a class="header__logo d-flex justify-center align-center mr-20" href="#"><img src="images/dist/header_logo.svg" alt=""></a>
+            <div class="header__control-panel d-if align-center justify-center"> <a class="btn btn_bordered mr-15" href="#">Sign In</a>
+              <div class="lang mr-30"> 
+                <div class="lang__selected d-if align-center justify-center">en</div>
+                <div class="icon ml-5">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.707 15.707C12.5195 15.8945 12.2652 15.9998 12 15.9998C11.7348 15.9998 11.4805 15.8945 11.293 15.707L5.63601 10.05C5.5405 9.95776 5.46431 9.84742 5.41191 9.72541C5.3595 9.60341 5.33191 9.47219 5.33076 9.33941C5.3296 9.20663 5.3549 9.07495 5.40519 8.95205C5.45547 8.82916 5.52972 8.7175 5.62361 8.62361C5.71751 8.52972 5.82916 8.45547 5.95205 8.40519C6.07495 8.3549 6.20663 8.3296 6.33941 8.33076C6.47219 8.33191 6.60341 8.3595 6.72541 8.41191C6.84742 8.46431 6.95776 8.5405 7.05001 8.63601L12 13.586L16.95 8.63601C17.1386 8.45385 17.3912 8.35305 17.6534 8.35533C17.9156 8.35761 18.1664 8.46278 18.3518 8.64819C18.5372 8.8336 18.6424 9.08441 18.6447 9.34661C18.647 9.6088 18.5462 9.86141 18.364 10.05L12.707 15.707Z" fill="white"></path>
+                  </svg>
+                </div>
+                <div class="lang__dropdown"> <a class="lang__option" href="#"> en</a><a class="lang__option" href="#"> ru</a></div>
+              </div><a class="cart-btn d-if align-center justify-center mr-20" href="#"> 
+                <div class="cart-btn__count d-if align-center justify-center">0</div>
+                <div class="icon"> 
+                  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30C23.2843 30 30 23.2843 30 15Z" fill="#686868"></path>
+                    <path d="M23.06 13.4009V13.8384C23.06 14.2212 22.7592 14.4946 22.4037 14.4946H22.185L21.4467 19.4986C21.3647 20.1548 20.8178 20.6196 20.1616 20.6196H10.1811C9.5248 20.6196 8.97797 20.1548 8.89594 19.4986L8.185 14.4946H7.96625C7.58344 14.4946 7.31 14.2212 7.31 13.8384V13.4009C7.31 13.0454 7.58344 12.7446 7.96625 12.7446H9.7983L12.7241 8.7525C12.9975 8.3423 13.5444 8.2603 13.9272 8.5611C14.3373 8.8345 14.4194 9.3814 14.1186 9.7642L11.9584 12.7446H18.3842L16.2241 9.7642C15.9233 9.3814 16.0053 8.8345 16.4155 8.5611C16.7983 8.2603 17.3452 8.3423 17.6186 8.7525L20.5444 12.7446H22.4037C22.7592 12.7446 23.06 13.0454 23.06 13.4009ZM15.8412 18.2134V15.1509C15.8412 14.7954 15.5405 14.4946 15.185 14.4946C14.8022 14.4946 14.5287 14.7954 14.5287 15.1509V18.2134C14.5287 18.5962 14.8022 18.8696 15.185 18.8696C15.5405 18.8696 15.8412 18.5962 15.8412 18.2134ZM18.9037 18.2134V15.1509C18.9037 14.7954 18.603 14.4946 18.2475 14.4946C17.8647 14.4946 17.5912 14.7954 17.5912 15.1509V18.2134C17.5912 18.5962 17.8647 18.8696 18.2475 18.8696C18.603 18.8696 18.9037 18.5962 18.9037 18.2134ZM12.7787 18.2134V15.1509C12.7787 14.7954 12.478 14.4946 12.1225 14.4946C11.7397 14.4946 11.4662 14.7954 11.4662 15.1509V18.2134C11.4662 18.5962 11.7397 18.8696 12.1225 18.8696C12.478 18.8696 12.7787 18.5962 12.7787 18.2134Z" fill="white"></path>
+                  </svg>
+                </div></a>
+              <div class="hamburger d-if"><span>
+                  <svg width="35" height="3" viewBox="0 0 35 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 1.5C0 0.671573 0.671573 0 1.5 0H33.5C34.3284 0 35 0.671573 35 1.5C35 2.32843 34.3284 3 33.5 3H1.5C0.671574 3 0 2.32843 0 1.5Z" fill="black"></path>
+                  </svg></span><span>
+                  <svg width="35" height="3" viewBox="0 0 35 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 1.5C0 0.671573 0.671573 0 1.5 0H33.5C34.3284 0 35 0.671573 35 1.5C35 2.32843 34.3284 3 33.5 3H1.5C0.671574 3 0 2.32843 0 1.5Z" fill="black"></path>
+                  </svg></span><span>
+                  <svg width="35" height="3" viewBox="0 0 35 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 1.5C0 0.671573 0.671573 0 1.5 0H33.5C34.3284 0 35 0.671573 35 1.5C35 2.32843 34.3284 3 33.5 3H1.5C0.671574 3 0 2.32843 0 1.5Z" fill="black"></path>
+                  </svg></span></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="slider">
+        <div class="container">
+          <div class="slider__wrap">
+            <div class="swiper slider-js">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slider__slide"> 
+                    <div class="slider__img"><img src="images/dist/slider1.webp" alt=""></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slider__slide"> 
+                    <div class="slider__img"><img src="images/dist/slider2.webp" alt=""></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slider__slide"> 
+                    <div class="slider__img"><img src="images/dist/slider3.webp" alt=""></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"> </div>
+            </div>
+          </div>
+          <div class="slider__nav d-flex align-center justify-between">
+            <div class="slider__nav-btn prev-btn">
+              <div class="icon">
+                <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.5 7H1M1 7L7 1M1 7L7 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="slider__nav-btn next-btn">
+              <div class="icon">
+                <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.5 7H17M17 7L11 1M17 7L11 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-img-wrap">
+        <div class="container">
+          <div class="text-img d-flex aling-center justify-between">
+            <div class="text-img__txt"> 
+              <div class="title fw-bold">About company</div>
+              <p>NWORK International was established at the beginning of 2016 as a result of professional efforts of 7 years, laying down the foundations in 2009. Our company has entered the sector with a high amount of investments by a professional team engaging in the real estate, tourism and a few commercial areas.</p><a class="btn mt-15" href="#">Learn more </a>
+            </div>
+            <div class="text-img__img-wrap">
+              <div class="text-img__img d-if align-center justify-center"> <img src="images/dist/text-img1.webp" alt=""></div><a class="btn mt-25" href="#">Learn more </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popular-products">
+        <div class="container">
+          <div class="swiper slider-products-js">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"> 
+                <div class="card">
+                  <div class="card__top"> <a class="card__img mb-10" href="#"> <img src="images/dist/card.webp" alt=""></a>
+                    <div class="card__info text-center"><a class="card__name mb-10" href="#"> Omega 3</a></div>
+                  </div>
+                  <div class="card__bottom text-center"> 
+                    <div class="card__price fw-bold">124 $</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide"> 
+                <div class="card">
+                  <div class="card__top"> <a class="card__img mb-10" href="#"> <img src="images/dist/card.webp" alt=""></a>
+                    <div class="card__info text-center"><a class="card__name mb-10" href="#"> Omega 3</a></div>
+                  </div>
+                  <div class="card__bottom text-center"> 
+                    <div class="card__price fw-bold">124 $</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide"> 
+                <div class="card">
+                  <div class="card__top"> <a class="card__img mb-10" href="#"> <img src="images/dist/card.webp" alt=""></a>
+                    <div class="card__info text-center"><a class="card__name mb-10" href="#"> Omega 3</a></div>
+                  </div>
+                  <div class="card__bottom text-center"> 
+                    <div class="card__price fw-bold">124 $</div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide"> 
+                <div class="card">
+                  <div class="card__top"> <a class="card__img mb-10" href="#"> <img src="images/dist/card.webp" alt=""></a>
+                    <div class="card__info text-center"><a class="card__name mb-10" href="#"> Omega 3</a></div>
+                  </div>
+                  <div class="card__bottom text-center"> 
+                    <div class="card__price fw-bold">124 $</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"> </div>
+          </div>
+          <div class="d-flex justify-center mt-35">    <a class="btn" href="#">Все продукты     </a></div>
+        </div>
+      </div>
+      <div class="faq">
+        <div class="container"> 
+          <div class="title fw-bold text-center">Часто задаваемые вопросы</div>
+          <div class="faq__item"> 
+            <div class="faq__question d-flex align-center justify-between"><span class="d-flex align-center">Question</span>
+              <div class="icon question-js"></div>
+            </div>
+            <div class="faq__answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci fuga eos et earum nisi ab. Dicta, asperiores tempora. Facere aut ea velit consequatur dolores earum explicabo officiis animi neque in!</div>
+          </div>
+          <div class="faq__item"> 
+            <div class="faq__question d-flex align-center justify-between"><span class="d-flex align-center">Question</span>
+              <div class="icon question-js"></div>
+            </div>
+            <div class="faq__answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci fuga eos et earum nisi ab. Dicta, asperiores tempora. Facere aut ea velit consequatur dolores earum explicabo officiis animi neque in!</div>
+          </div>
+          <div class="faq__item"> 
+            <div class="faq__question d-flex align-center justify-between"><span class="d-flex align-center">Question</span>
+              <div class="icon question-js"></div>
+            </div>
+            <div class="faq__answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci fuga eos et earum nisi ab. Dicta, asperiores tempora. Facere aut ea velit consequatur dolores earum explicabo officiis animi neque in!</div>
+          </div>
+          <div class="faq__item"> 
+            <div class="faq__question d-flex align-center justify-between"><span class="d-flex align-center">Question</span>
+              <div class="icon question-js"></div>
+            </div>
+            <div class="faq__answer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci fuga eos et earum nisi ab. Dicta, asperiores tempora. Facere aut ea velit consequatur dolores earum explicabo officiis animi neque in!</div>
+          </div>
+        </div>
+      </div>
+      <div class="join pt-50 pb-50 text-center" style="background-image: url('/images/dist/join_bg.webp')">
+        <div class="container">
+          <div class="join__content"> 
+            <div class="title fw-bold">Volunteer Brand Representative Works Full Speed</div>
+            <p>Would you like to become fully equipped with one-to-one trainings and become an expert in communication?</p><a class="btn mt-45" href="#">Join us now! </a>
+          </div>
+        </div>
+      </div>
+      <div class="studies pt-35 pb-25">
+        <div class="container">
+          <div class="title">PROFESSIONAL PRODUCT STUDIES</div>
+          <div class="announcement-wrap">
+            <div class="announcement-block"> <a class="announcement-block__img mb-20 d-flex align-center justify-center" href="#"> <img src="images/dist/announcement1.webp" alt=""></a><a class="announcement-block__name mb-10 fw-bold" href="#">R &amp; D</a>
+              <p>Our products are produced and developed as a result of 7 years of professional arge habit.</p>
+            </div>
+            <div class="announcement-block"> <a class="announcement-block__img mb-20 d-flex align-center justify-center" href="#"> <img src="images/dist/announcement2.webp" alt=""></a><a class="announcement-block__name mb-10 fw-bold" href="#">PROFESSIONAL</a>
+              <p>Real estate was established by a professional team working in commercial areas sm.</p>
+            </div>
+            <div class="announcement-block"> <a class="announcement-block__img mb-20 d-flex align-center justify-center" href="#"> <img src="images/dist/announcement3.webp" alt=""></a><a class="announcement-block__name mb-10 fw-bold" href="#">PRODUCTION</a>
+              <p>All products are produced completely under the control of ouruntil they are made.</p>
+            </div>
+          </div>
+          <div class="text-center mt-5 mb-25"><a class="btn" href="#">Read All The News</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="contacts">
+      <div class="contacts__wrap d-flex align-center">
+        <div class="contacts__col contacts__col_contacts">
+          <div class="title fw-bold">Get in touch</div>
+          <ul class="contacts-list">
+            <li class="mb-15"><a class="d-flex align-center" href="tel:08508001818">
+                <div class="icon mr-10"> 
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.51667 6.99167C4.71667 9.35 6.65 11.2833 9.0083 12.4833L10.8417 10.65C11.075 10.4167 11.4 10.35 11.6917 10.4417C12.625 10.75 13.625 10.9167 14.6667 10.9167C14.8877 10.9167 15.0996 11.0045 15.2559 11.1607C15.4122 11.317 15.5 11.529 15.5 11.75V14.6667C15.5 14.8877 15.4122 15.0996 15.2559 15.2559C15.0996 15.4122 14.8877 15.5 14.6667 15.5C10.9094 15.5 7.30609 14.0074 4.64932 11.3507C1.99256 8.6939 0.5 5.09057 0.5 1.33333C0.5 1.11232 0.5878 0.90036 0.74408 0.74408C0.90036 0.5878 1.11232 0.5 1.33333 0.5H4.25C4.47101 0.5 4.68298 0.5878 4.83926 0.74408C4.99554 0.90036 5.08333 1.11232 5.08333 1.33333C5.08333 2.375 5.25 3.375 5.55833 4.30833C5.65 4.6 5.58333 4.925 5.35 5.15833L3.51667 6.99167Z" fill="#7DAD52"></path>
+                  </svg>
+                </div>(0850) 800 18 18</a></li>
+            <li class="mb-15"><a class="d-flex align-center" href="mailto:info@cminternational.com"> 
+                <div class="icon mr-10"> 
+                  <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.6667 0.333252H2.33335C1.41669 0.333252 0.675017 1.08325 0.675017 1.99992L0.666687 11.9999C0.666687 12.9166 1.41669 13.6666 2.33335 13.6666H15.6667C16.5834 13.6666 17.3334 12.9166 17.3334 11.9999V1.99992C17.3334 1.08325 16.5834 0.333252 15.6667 0.333252ZM15.6667 3.66659L9 7.8333L2.33335 3.66659V1.99992L9 6.16658L15.6667 1.99992V3.66659Z" fill="#7DAD52"></path>
+                  </svg>
+                </div>info@cminternational.com</a></li>
+            <li class="d-flex align-center">
+              <div class="icon mr-10"> 
+                <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 0.25C5.17727 0.25207 3.42979 0.97706 2.14092 2.26592C0.85206 3.55479 0.12707 5.30227 0.125 7.125C0.125 13.0078 6.375 17.4508 6.64141 17.6367C6.74649 17.7103 6.87169 17.7498 7 17.7498C7.1283 17.7498 7.2535 17.7103 7.3586 17.6367C7.625 17.4508 13.875 13.0078 13.875 7.125C13.8729 5.30227 13.1479 3.55479 11.8591 2.26592C10.5702 0.97706 8.8227 0.25207 7 0.25ZM7 4.625C7.4945 4.625 7.9778 4.77162 8.3889 5.04633C8.8 5.32103 9.1205 5.71148 9.3097 6.16829C9.4989 6.62511 9.5484 7.12777 9.452 7.61273C9.3555 8.09768 9.1174 8.54314 8.7678 8.89277C8.4181 9.2424 7.9727 9.4805 7.4877 9.577C7.0028 9.6734 6.50011 9.6239 6.04329 9.4347C5.58648 9.2455 5.19603 8.92505 4.92133 8.51393C4.64662 8.1028 4.5 7.61945 4.5 7.125C4.5 6.46196 4.76339 5.82607 5.23223 5.35723C5.70107 4.88839 6.33696 4.625 7 4.625Z" fill="#7DAD52"></path>
+                </svg>
+              </div>İSTANBUL / TÜRKİYE
+            </li>
+          </ul>
+        </div>
+        <div class="contacts__col">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer pt-50 pb-50">
+      <div class="container">
+        <div class="footer__wrap d-flex justify-between">
+          <div class="footer__col"><a class="footer__logo mb-25 d-flex align-center justify-center" href="#"><img src="images/dist/footer_logo.svg" alt=""></a>
+            <p class="mb-15">Nwork international gida sağlik güzelli̇k ti̇caret ve pazarlama ltd.şti̇</p>
+            <ul class="contacts-list">
+              <li class="mb-15"><a class="d-flex align-center" href="tel:08508001818">
+                  <div class="icon mr-10"> 
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.51667 6.99167C4.71667 9.35 6.65 11.2833 9.0083 12.4833L10.8417 10.65C11.075 10.4167 11.4 10.35 11.6917 10.4417C12.625 10.75 13.625 10.9167 14.6667 10.9167C14.8877 10.9167 15.0996 11.0045 15.2559 11.1607C15.4122 11.317 15.5 11.529 15.5 11.75V14.6667C15.5 14.8877 15.4122 15.0996 15.2559 15.2559C15.0996 15.4122 14.8877 15.5 14.6667 15.5C10.9094 15.5 7.30609 14.0074 4.64932 11.3507C1.99256 8.6939 0.5 5.09057 0.5 1.33333C0.5 1.11232 0.5878 0.90036 0.74408 0.74408C0.90036 0.5878 1.11232 0.5 1.33333 0.5H4.25C4.47101 0.5 4.68298 0.5878 4.83926 0.74408C4.99554 0.90036 5.08333 1.11232 5.08333 1.33333C5.08333 2.375 5.25 3.375 5.55833 4.30833C5.65 4.6 5.58333 4.925 5.35 5.15833L3.51667 6.99167Z" fill="#7DAD52"></path>
+                    </svg>
+                  </div>(0850) 800 18 18</a></li>
+              <li class="mb-15"><a class="d-flex align-center" href="mailto:info@cminternational.com"> 
+                  <div class="icon mr-10"> 
+                    <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.6667 0.333252H2.33335C1.41669 0.333252 0.675017 1.08325 0.675017 1.99992L0.666687 11.9999C0.666687 12.9166 1.41669 13.6666 2.33335 13.6666H15.6667C16.5834 13.6666 17.3334 12.9166 17.3334 11.9999V1.99992C17.3334 1.08325 16.5834 0.333252 15.6667 0.333252ZM15.6667 3.66659L9 7.8333L2.33335 3.66659V1.99992L9 6.16658L15.6667 1.99992V3.66659Z" fill="#7DAD52"></path>
+                    </svg>
+                  </div>info@cminternational.com</a></li>
+              <li class="d-flex align-center">
+                <div class="icon mr-10"> 
+                  <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 0.25C5.17727 0.25207 3.42979 0.97706 2.14092 2.26592C0.85206 3.55479 0.12707 5.30227 0.125 7.125C0.125 13.0078 6.375 17.4508 6.64141 17.6367C6.74649 17.7103 6.87169 17.7498 7 17.7498C7.1283 17.7498 7.2535 17.7103 7.3586 17.6367C7.625 17.4508 13.875 13.0078 13.875 7.125C13.8729 5.30227 13.1479 3.55479 11.8591 2.26592C10.5702 0.97706 8.8227 0.25207 7 0.25ZM7 4.625C7.4945 4.625 7.9778 4.77162 8.3889 5.04633C8.8 5.32103 9.1205 5.71148 9.3097 6.16829C9.4989 6.62511 9.5484 7.12777 9.452 7.61273C9.3555 8.09768 9.1174 8.54314 8.7678 8.89277C8.4181 9.2424 7.9727 9.4805 7.4877 9.577C7.0028 9.6734 6.50011 9.6239 6.04329 9.4347C5.58648 9.2455 5.19603 8.92505 4.92133 8.51393C4.64662 8.1028 4.5 7.61945 4.5 7.125C4.5 6.46196 4.76339 5.82607 5.23223 5.35723C5.70107 4.88839 6.33696 4.625 7 4.625Z" fill="#7DAD52"></path>
+                  </svg>
+                </div>İSTANBUL / TÜRKİYE
+              </li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <div class="title">Agreements</div>
+            <ul>
+              <li class="mb-10"><a href="#">Distance Sales Agreement </a></li>
+              <li class="mb-10"><a href="#">Return Conditions </a></li>
+              <li class="mb-10"><a href="#">Distributor Agreement </a></li>
+              <li class="mb-10"><a href="#">Our Ethical Principles </a></li>
+              <li><a href="#">WEB SITE PRIVACY POLICY </a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <div class="title">E-Mail Subscription</div>
+            <p class="mb-25">All innovations from the campaign and notified by e-mail to subscribe.</p>
+            <form action="#">
+              <div class="subscribe d-flex align-center">
+                <input type="text" placeholder="Type your e-mail address.">
+                <button type="submit">
+                  <div class="icon"> 
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.4453 0.242251C14.9434 -0.0507179 15.5879 0.359438 15.4707 0.945376L13.3613 13.6016C13.3027 14.0704 12.8047 14.334 12.3945 14.1583L8.76172 12.6055L6.88672 14.8907C6.47656 15.3887 5.65625 15.1251 5.65625 14.4219V12.0489L12.6875 3.46491C12.834 3.28913 12.5996 3.08405 12.4531 3.23053L4.04492 10.6426L0.910154 9.32428C0.38281 9.1192 0.324216 8.35748 0.85156 8.06452L14.4453 0.242251Z" fill="white"></path>
+                    </svg>
+                  </div>
+                </button>
+              </div>
+            </form>
+            <div class="social social_light">
+              <ul class="d-flex mt-20 ml-10">
+                <li> <a href="#">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M19.3455 16.125H16.6182V24H12.9818V16.125H10V12.8906H12.9818V10.3945C12.9818 7.58203 14.7273 6 17.3818 6C18.6545 6 20 6.24609 20 6.24609V9.02344H18.5091C17.0545 9.02344 16.6182 9.86719 16.6182 10.7812V12.8906H19.8545L19.3455 16.125Z" fill="#7DAD52"></path>
+                    </svg></a></li>
+                <li> <a href="#">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.5 7C19.1613 7 23 10.8387 23 15.5C23 20.1956 19.1613 24 14.5 24C9.80444 24 6 20.1956 6 15.5C6 10.8387 9.80444 7 14.5 7ZM12.0665 19.75C14.5 19.75 16.1452 18.0363 16.1452 15.6028C16.1452 15.3629 16.1109 15.123 16.0766 14.9173H12.0665V16.3569H14.4657C14.2944 17.5222 13.1633 18.1734 12.0665 18.1734C10.5927 18.1734 9.42742 16.9738 9.42742 15.5C9.42742 14.0605 10.5927 12.8266 12.0665 12.8266C12.6835 12.8266 13.3004 13.0323 13.746 13.4778L14.9113 12.381C14.123 11.627 13.129 11.25 12.0665 11.25C9.70161 11.25 7.81653 13.1694 7.81653 15.5C7.81653 17.8649 9.70161 19.75 12.0665 19.75ZM19.9496 16.1169H21.1492V14.9173H19.9496V13.6835H18.75V14.9173H17.5161V16.1169H18.75V17.3508H19.9496V16.1169Z" fill="#7DAD52"></path>
+                    </svg></a></li>
+                <li> <a href="#">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M20.9286 7C21.4978 7 22 7.50223 22 8.10491V20.9286C22 21.5313 21.4978 22 20.9286 22H8.03795C7.46875 22 7 21.5313 7 20.9286V8.10491C7 7.50223 7.46875 7 8.03795 7H20.9286ZM11.5201 19.8571V12.7254H9.31027V19.8571H11.5201ZM10.4152 11.721C11.1183 11.721 11.6875 11.1518 11.6875 10.4487C11.6875 9.74554 11.1183 9.14286 10.4152 9.14286C9.67857 9.14286 9.10938 9.74554 9.10938 10.4487C9.10938 11.1518 9.67857 11.721 10.4152 11.721ZM19.8571 19.8571V15.9397C19.8571 14.0313 19.4219 12.5246 17.1786 12.5246C16.1071 12.5246 15.3705 13.1272 15.0692 13.6964H15.0357V12.7254H12.9263V19.8571H15.1362V16.3415C15.1362 15.404 15.3036 14.5 16.4754 14.5C17.6138 14.5 17.6138 15.5714 17.6138 16.375V19.8571H19.8571Z" fill="#7DAD52"></path>
+                    </svg></a></li>
+                <li> <a href="#">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M22.1683 11.4747C22.1683 11.6434 22.1683 11.7783 22.1683 11.947C22.1683 16.6361 18.4697 22 11.6712 22C9.55773 22 7.62035 21.4265 6 20.4145C6.2818 20.4482 6.5636 20.4819 6.88063 20.4819C8.60665 20.4819 10.1918 19.9084 11.4599 18.9639C9.83953 18.9301 8.46575 17.9181 8.00783 16.5012C8.2544 16.5349 8.46575 16.5687 8.71233 16.5687C9.02935 16.5687 9.38161 16.5012 9.66341 16.4337C7.9726 16.0964 6.7045 14.6795 6.7045 12.959V12.9253C7.19765 13.1952 7.79648 13.3301 8.3953 13.3639C7.37378 12.7229 6.73973 11.6434 6.73973 10.4289C6.73973 9.75422 6.91585 9.14699 7.23288 8.64096C9.06458 10.7663 11.8121 12.1831 14.8767 12.3518C14.8063 12.0819 14.771 11.812 14.771 11.5422C14.771 9.58554 16.4266 8 18.4697 8C19.5264 8 20.4775 8.40482 21.182 9.11325C21.9922 8.94458 22.8023 8.64096 23.5068 8.23615C23.225 9.07952 22.6614 9.75422 21.8865 10.1928C22.6262 10.1253 23.3659 9.92289 24 9.65301C23.5068 10.3614 22.8728 10.9687 22.1683 11.4747Z" fill="#7DAD52"></path>
+                    </svg></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/app.min.js"></script>
+  <script type="text/javascript">
+    var map;
+    DG.then(function () {
+      map = DG.map('map', {
+        center: [54.98, 82.89],
+        zoom: 13
+      });
+    });
+  </script>
+</body>

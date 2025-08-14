@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cart
+    </title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta name="theme-color" content="#005891">
+    <meta name="msapplication-navbutton-color" content="#005891">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#005891">
+    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+</html>
+<body>
+  <div class="wrapper wrapper_bg-third">
+    <div class="content">
+      <div class="menu vertical-scroll">
+        <div class="menu__container">
+          <div class="container">
+            <div class="menu__top"> 
+              <div class="close-btn close-menu-js"> 
+                <div class="icon">
+                  <svg>
+                    <use xlink:href="sprite.svg#close"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="title title_h4">Menu      </div>
+            </div>
+            <div class="menu__flex-container">
+              <div class="menu__flex-col menu__flex-col_menu-list b-radius">
+                <div class="menu__list"> 
+                  <ul> 
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="products.html">Products</a></li>
+                    <li> <a href="news.html">News</a></li>
+                    <li> <a href="about.html">About Us</a></li>
+                    <li> <a href="contacts.html">Contacts</a></li>
+                    <li> <a href="faq.html">FAQ</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="secondary-block b-radius secondary-block_contacts">
+                <div class="secondary-block__list"> 
+                  <ul>
+                    <li><span class="secondary-block__label">Contact us</span><a class="secondary-block__content" href="tel:+90 552 349 31 88">+90 552 349 31 88</a>
+                    </li>
+                    <li><span class="secondary-block__label">For questions</span><a class="secondary-block__content" href="mail:info@grow.com">info@grow.com</a>
+                    </li>
+                    <li><span class="secondary-block__label">Where to find us</span>
+                      <div class="secondary-block__content">720005, г. Бишкек, Турусбекова, 82/1</div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="social"> 
+                  <ul>
+                    <li> <a href="#" target="_blank"> 
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#whatsapp"></use>
+                          </svg>
+                        </div><span>Whatsapp</span></a></li>
+                    <li> <a href="#" target="_blank"> 
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#telegram"></use>
+                          </svg>
+                        </div><span>Telegram</span></a></li>
+                    <li> <a href="#" target="_blank"> 
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#instagram"></use>
+                          </svg>
+                        </div><span>Instagram</span></a></li>
+                    <li> <a href="#" target="_blank"> 
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#facebook"></use>
+                          </svg>
+                        </div><span>Facebook</span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header class="header">
+        <div class="container"> 
+          <div class="header__flex-container"> 
+            <div class="header__flex-col">
+              <div class="hamburger hamburger-js">
+                <div class="icon">
+                  <svg>
+                    <use xlink:href="sprite.svg#hamburger"></use>
+                  </svg>
+                </div>
+              </div><a class="logo" href="index.html"><img src="images/dist/logo.svg" alt=""></a>
+            </div>
+            <div class="header__flex-col"> 
+              <div class="select">
+                <div class="select__selected select-js"> <span>en</span>
+                  <div class="icon">
+                    <svg>
+                      <use xlink:href="sprite.svg#angle"> </use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="select__dropdown"> <a class="select__option" href="#">en</a><a class="select__option" href="#">ru</a></div>
+              </div><a class="btn btn_gradient sm-hide" href="#">Dashboard</a><a class="header__user sm-hide" href="profile.html"> <img src="images/dist/user.webp" alt=""></a>
+            </div>
+          </div>
+          <div class="header__btn-line-break sm-show"><a class="btn btn_gradient sm-w100p" href="#">Dashboard</a><a class="header__user" href="profile.html"> <img src="images/dist/user.webp" alt=""></a></div>
+        </div>
+      </header>
+      <div class="page">
+        <div class="container">
+          <div class="filter horizontal-scroll">
+            <div class="filter__col">
+              <div class="filter__list">
+                <div class="filter__item btn btn_sm">Dashboard</div>
+                <div class="filter__item btn btn_sm active">Products</div>
+                <div class="filter__item btn btn_sm">Referrals</div>
+                <div class="filter__item btn btn_sm">Team</div>
+                <div class="filter__item btn btn_sm">Finance</div>
+                <div class="filter__item btn btn_sm">Orders</div>
+              </div>
+            </div>
+          </div>
+          <div class="title-wrap">
+            <div class="title title_h3 title_f-weight-medium">Products </div>
+          </div>
+          <div class="cart">
+            <div class="cart__flex-container">
+              <div class="cart__flex-col">
+                <div class="records-wrap"> 
+                  <div class="records-wrap__col records-wrap__col_w50p">
+                    <div class="record">
+                      <div class="record__item record__item_high-md record__item_additionaly b-radius"><img class="record__img" src="images/dist/product1.webp" alt="Relax">
+                        <div class="record__content">
+                          <div class="record__top record__top_justify-end">
+                            <div class="additionaly additionaly_light">
+                              <div class="title title_h6 title_f-weight-medium">39.5</div><span>Bonus</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="record__item-desc"><a class="title title_h5">Relax</a><br><br>
+                        <div class="record__item-btn-wrap">
+                          <button class="btn btn_sm btn_gray trigger-js" data-name="product-detail"><span>Details</span>
+                            <div class="icon">
+                              <svg>
+                                <use xlink:href="sprite.svg#arrowtopright"> </use>
+                              </svg>
+                            </div>
+                          </button>
+                          <div class="counter-wrap">
+                            <button class="btn btn_sm btn_accent add-to-cart-js">Add to cart</button>
+                            <div class="counter">
+                              <button class="minus counter__btn">
+                                <div class="icon">
+                                  <svg>
+                                    <use xlink:href="sprite.svg#minus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                              <input class="count" type="text" value="0" readonly>
+                              <button class="plus counter__btn">
+                                <div class="icon">
+                                  <svg>
+                                    <use xlink:href="sprite.svg#plus"> </use>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="records-wrap__col records-wrap__col_w50p">
+                    <div class="record">
+                      <div class="record__item record__item_high-md record__item_additionaly b-radius"><img class="record__img" src="images/dist/product2.webp" alt="Relax">
+                        <div class="record__content">
+                          <div class="record__top record__top_justify-end">
+                            <div class="additionaly additionaly_light">
+                              <div class="title title_h6 title_f-weight-medium">23</div><span>Bonus</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="record__item-desc"><a class="title title_h5">Relax</a><br><br>
+                        <div class="record__item-btn-wrap">
+                          <button class="btn btn_sm btn_gray trigger-js" data-name="product-detail"><span>Details</span>
+                            <div class="icon">
+                              <svg>
+                                <use xlink:href="sprite.svg#arrowtopright"> </use>
+                              </svg>
+                            </div>
+                          </button>
+                          <div class="counter-wrap">
+                            <button class="btn btn_sm btn_accent add-to-cart-js">Add to cart</button>
+                            <div class="counter">
+                              <button class="minus counter__btn">
+                                <div class="icon">
+                                  <svg>
+                                    <use xlink:href="sprite.svg#minus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                              <input class="count" type="text" value="0" readonly>
+                              <button class="plus counter__btn">
+                                <div class="icon">
+                                  <svg>
+                                    <use xlink:href="sprite.svg#plus"> </use>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="records-wrap__col records-wrap__col_w50p">
+                    <div class="record">
+                      <div class="record__item record__item_high-md record__item_additionaly b-radius"><img class="record__img" src="images/dist/product3.webp" alt="Brainstorm">
+                        <div class="record__content">
+                          <div class="record__top record__top_justify-end">
+                            <div class="additionaly additionaly_light">
+                              <div class="title title_h6 title_f-weight-medium">42</div><span>Bonus</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="record__item-desc"><a class="title title_h5">Brainstorm</a><br><br>
+                        <div class="record__item-btn-wrap">
+                          <button class="btn btn_sm btn_gray trigger-js" data-name="product-detail"><span>Details</span>
+                            <div class="icon">
+                              <svg>
+                                <use xlink:href="sprite.svg#arrowtopright"> </use>
+                              </svg>
+                            </div>
+                          </button>
+                          <div class="counter-wrap">
+                            <button class="btn btn_sm btn_accent add-to-cart-js">Add to cart</button>
+                            <div class="counter">
+                              <button class="minus counter__btn">
+                                <div class="icon">
+                                  <svg>
+                                    <use xlink:href="sprite.svg#minus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                              <input class="count" type="text" value="0" readonly>
+                              <button class="plus counter__btn">
+                                <div class="icon">
+                                  <svg>
+                                    <use xlink:href="sprite.svg#plus"> </use>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="records-wrap__col records-wrap__col_w50p">
+                    <div class="record">
+                      <div class="record__item record__item_high-md record__item_additionaly b-radius"><img class="record__img" src="images/dist/product4.webp" alt="Sleep">
+                        <div class="record__content">
+                          <div class="record__top record__top_justify-end">
+                            <div class="additionaly additionaly_light">
+                              <div class="title title_h6 title_f-weight-medium">132</div><span>Bonus</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="record__item-desc"><a class="title title_h5">Sleep</a><br><br>
+                        <div class="record__item-btn-wrap">
+                          <button class="btn btn_sm btn_gray trigger-js" data-name="product-detail"><span>Details</span>
+                            <div class="icon">
+                              <svg>
+                                <use xlink:href="sprite.svg#arrowtopright"> </use>
+                              </svg>
+                            </div>
+                          </button>
+                          <div class="counter-wrap">
+                            <button class="btn btn_sm btn_accent add-to-cart-js">Add to cart</button>
+                            <div class="counter">
+                              <button class="minus counter__btn">
+                                <div class="icon">
+                                  <svg>
+                                    <use xlink:href="sprite.svg#minus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                              <input class="count" type="text" value="0" readonly>
+                              <button class="plus counter__btn">
+                                <div class="icon">
+                                  <svg>
+                                    <use xlink:href="sprite.svg#plus"> </use>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="records-wrap__col records-wrap__col_w50p">
+                    <div class="record">
+                      <div class="record__item record__item_high-md record__item_additionaly b-radius"><img class="record__img" src="images/dist/product5.webp" alt="Sleep">
+                        <div class="record__content">
+                          <div class="record__top record__top_justify-end">
+                            <div class="additionaly additionaly_light">
+                              <div class="title title_h6 title_f-weight-medium">58</div><span>Bonus</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="record__item-desc"><a class="title title_h5">Sleep</a><br><br>
+                        <div class="record__item-btn-wrap">
+                          <button class="btn btn_sm btn_gray trigger-js" data-name="product-detail"><span>Details</span>
+                            <div class="icon">
+                              <svg>
+                                <use xlink:href="sprite.svg#arrowtopright"> </use>
+                              </svg>
+                            </div>
+                          </button>
+                          <div class="counter-wrap">
+                            <button class="btn btn_sm btn_accent add-to-cart-js">Add to cart</button>
+                            <div class="counter">
+                              <button class="minus counter__btn">
+                                <div class="icon">
+                                  <svg>
+                                    <use xlink:href="sprite.svg#minus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                              <input class="count" type="text" value="0" readonly>
+                              <button class="plus counter__btn">
+                                <div class="icon">
+                                  <svg>
+                                    <use xlink:href="sprite.svg#plus"> </use>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="records-wrap__col records-wrap__col_w50p">
+                    <div class="record">
+                      <div class="record__item record__item_high-md record__item_additionaly b-radius"><img class="record__img" src="images/dist/product6.webp" alt="Flame Man">
+                        <div class="record__content">
+                          <div class="record__top record__top_justify-end">
+                            <div class="additionaly additionaly_light">
+                              <div class="title title_h6 title_f-weight-medium">112</div><span>Bonus</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="record__item-desc"><a class="title title_h5">Flame Man</a><br><br>
+                        <div class="record__item-btn-wrap">
+                          <button class="btn btn_sm btn_gray trigger-js" data-name="product-detail"><span>Details</span>
+                            <div class="icon">
+                              <svg>
+                                <use xlink:href="sprite.svg#arrowtopright"> </use>
+                              </svg>
+                            </div>
+                          </button>
+                          <div class="counter-wrap">
+                            <button class="btn btn_sm btn_accent add-to-cart-js">Add to cart</button>
+                            <div class="counter">
+                              <button class="minus counter__btn">
+                                <div class="icon">
+                                  <svg>
+                                    <use xlink:href="sprite.svg#minus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                              <input class="count" type="text" value="0" readonly>
+                              <button class="plus counter__btn">
+                                <div class="icon">
+                                  <svg>
+                                    <use xlink:href="sprite.svg#plus"> </use>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="records-wrap__col records-wrap__col_w50p">
+                    <div class="record">
+                      <div class="record__item record__item_high-md record__item_additionaly b-radius"><img class="record__img" src="images/dist/product7.webp" alt="Ozonized Oil ">
+                        <div class="record__content">
+                          <div class="record__top record__top_justify-end">
+                            <div class="additionaly additionaly_light">
+                              <div class="title title_h6 title_f-weight-medium">65.3</div><span>Bonus</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="record__item-desc"><a class="title title_h5">Ozonized Oil </a><br><br>
+                        <div class="record__item-btn-wrap">
+                          <button class="btn btn_sm btn_gray trigger-js" data-name="product-detail"><span>Details</span>
+                            <div class="icon">
+                              <svg>
+                                <use xlink:href="sprite.svg#arrowtopright"> </use>
+                              </svg>
+                            </div>
+                          </button>
+                          <div class="counter-wrap">
+                            <button class="btn btn_sm btn_accent add-to-cart-js">Add to cart</button>
+                            <div class="counter">
+                              <button class="minus counter__btn">
+                                <div class="icon">
+                                  <svg>
+                                    <use xlink:href="sprite.svg#minus"></use>
+                                  </svg>
+                                </div>
+                              </button>
+                              <input class="count" type="text" value="0" readonly>
+                              <button class="plus counter__btn">
+                                <div class="icon">
+                                  <svg>
+                                    <use xlink:href="sprite.svg#plus"> </use>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pagination"> 
+                  <ul> 
+                    <li class="disabled"><a class="btn btn_sm btn_gray" href="#">
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#arrowleft"> </use>
+                          </svg>
+                        </div><span>Previous</span></a></li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li> <a href="#">2</a></li>
+                    <li> <a href="#">3</a></li>
+                    <li>...</li>
+                    <li> <a href="#">7</a></li>
+                    <li> <a href="#">24</a></li>
+                    <li> <a class="btn btn_sm btn_gray" href="#"><span>Next</span>
+                        <div class="icon">
+                          <svg>
+                            <use xlink:href="sprite.svg#arrowright"> </use>
+                          </svg>
+                        </div></a></li>
+                  </ul>
+                </div>
+                <div class="cart__delivery">
+                  <div class="item-wrap"> 
+                    <div class="item-wrap__flex-container"> 
+                      <div class="item-wrap__flex-col item-wrap__flex-col_w50p">
+                        <div class="item item_bg-light item_horizontal item_justify-start">
+                          <div class="item__part">
+                            <div class="item__title item__title_md-font">Select your ordering <br> method</div>
+                            <div class="filter">
+                              <div class="filter__col">
+                                <div class="filter__list">
+                                  <div class="filter__item btn btn_sm active"><i></i>Delivery</div>
+                                  <div class="filter__item btn btn_sm"><i></i>Pickup</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item-wrap__flex-col item-wrap__flex-col_w50p">
+                        <div class="item item_bg-fourth item_horizontal item_align-end">
+                          <div class="item__part"> 
+                            <div class="item__img item__img_lg"> <img src="images/dist/item6.webp" alt=""></div>
+                          </div>
+                          <div class="item__part">
+                            <div>
+                              <div class="item__label">Repeat purchase</div>
+                              <div class="item__title item__title_md-font">Buy products with <br> a 20% discount</div>
+                            </div><a class="btn btn_sm btn_white" href="#">Apply</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cart__delivery-form b-radius">
+                    <div class="title-wrap">
+                      <div class="title title_h4">Delivery details</div>
+                    </div>
+                    <form action="">
+                      <div class="form form_indent-sm">
+                        <div class="form__input-group input input_w50p">
+                          <label>Country</label>
+                          <div class="select select_secondary">
+                            <div class="select__selected select-js"> <span>Choose country...</span>
+                              <div class="icon">
+                                <svg>
+                                  <use xlink:href="sprite.svg#angle"> </use>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="select__dropdown"> <a class="select__option" href="#">option</a><a class="select__option" href="#">option</a></div>
+                          </div>
+                        </div>
+                        <div class="form__input-group input input_w50p">
+                          <label>City</label>
+                          <div class="select select_secondary">
+                            <div class="select__selected select-js"> <span>Choose city...</span>
+                              <div class="icon">
+                                <svg>
+                                  <use xlink:href="sprite.svg#angle"> </use>
+                                </svg>
+                              </div>
+                            </div>
+                            <div class="select__dropdown"> <a class="select__option" href="#">option</a><a class="select__option" href="#">option</a></div>
+                          </div>
+                        </div>
+                                                <div class="form__input-group input input_w50p">
+                                                  <label for="input1">Street</label>
+                                                  <div class="input__field">
+                                                    <input type="text" id="input1" placeholder="Erkindik Bulvar...">
+                                                  </div>
+                                                  <div class="input__message">Lorem, ipsum.</div>
+                                                </div>
+                                                <div class="form__input-group input input_w25p">
+                                                  <label for="input1">Home / Flat</label>
+                                                  <div class="input__field">
+                                                    <input type="text" id="input1" placeholder="Erkindik Bulvar...">
+                                                  </div>
+                                                  <div class="input__message">Lorem, ipsum.</div>
+                                                </div>
+                                                <div class="form__input-group input input_w25p">
+                                                  <label for="input1">Postal code</label>
+                                                  <div class="input__field">
+                                                    <input type="text" id="input1" placeholder="Erkindik Bulvar...">
+                                                  </div>
+                                                  <div class="input__message">Lorem, ipsum.</div>
+                                                </div>
+                        <div class="form__input-group input input_w100p">
+                          <label for="message">Comment to order</label>
+                          <div class="input__field input__field_textarea"><textarea id="message" name="message" placeholder="Comment to order"></textarea> </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="cart__flex-col">
+                <div class="cart__invoice b-radius">
+                  <div class="title-and-btn"> 
+                    <div class="title title_h4">Cart</div>
+                    <button class="btn btn_gray">Clear cart </button>
+                  </div>
+                  <ul> 
+                    <li> <span>Subtotal</span><span>  
+                        <div class="title title_h5 title_f-weight-medium">500 </div>Bonus</span></li>
+                    <li> <span>Delivery</span><span>  
+                        <div class="title title_h5 title_f-weight-medium">10 </div>Bonus</span></li>
+                    <li> <span>Discount</span><span>  
+                        <div class="title title_h5 title_f-weight-medium">5 % </div></span></li>
+                  </ul>
+                  <div class="item item_bg-first item_horizontal item_justify-start">
+                    <div class="item__part">
+                      <div class="item__label">Total amount</div>
+                      <div class="item__title item__title_md-font">27 131<span>Bonus</span></div>
+                    </div>
+                  </div>
+                  <button class="btn btn_gradient btn_full-w">Create order      </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="popup-wrap called-js" data-name="product-detail">
+    <div class="popup popup_product b-radius">
+      <div class="title-and-btn">
+        <div class="title title_h3">Product</div>
+        <div class="close-btn"> 
+          <div class="icon">
+            <svg>
+              <use xlink:href="sprite.svg#close"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="records-wrap"> 
+        <div class="records-wrap__col records-wrap__col_w50p records-wrap__col_min-indent">
+          <div class="record"><a class="record__item record__item_high-sm b-radius" href="images/dist/product1.webp" data-fancybox="gallery" data-caption="Image title1"> <img class="record__img" src="images/dist/product1.webp" alt="Relax"></a></div>
+        </div>
+        <div class="records-wrap__col records-wrap__col_w50p records-wrap__col_min-indent">
+          <div class="record"><a class="record__item record__item_high-sm b-radius" href="images/dist/product2.webp" data-fancybox="gallery" data-caption="Image title2"> <img class="record__img" src="images/dist/product2.webp" alt="Relax"></a></div>
+        </div>
+      </div>
+      <div class="title title_h2 title_f-weight-medium">RELAX</div><br>
+      <div class="title title_h5">Calm & Relaxation</div>
+      <div class="product-detail__additionaly"> 
+        <div class="additionaly additionaly_gray">Article: 56565656</div>
+        <div class="additionaly additionaly_lemon">Weight: 250 mgr</div>
+        <div class="additionaly additionaly_sky">Type: Capsules</div>
+        <div class="count">60</div>
+      </div>
+      <div class="title title_h4 title_f-weight-medium">320.89<span>Bonus  </span></div>
+      <div class="description">
+        <div class="title title_h5 title_f-weight-medium">Сharacteristics</div>
+        <p>One of the important components of black cumin oil is 60% thymoquinone. This is a powerful antioxidant that has an anti-inflammatory effect, increases overall tone and improves performance.</p>
+        <p>In addition, it contains hundreds of other active substances: unsaturated and saturated fatty acids (Omega-3, -6, -9), phospholipids, 15 amino acids. Vitamins A, C, D, E, B vitamins (B1, B2, B3, B6, B9).</p>
+        <p>Phytosterols, flavonoids, tannins, polysaccharides and monosaccharides (glucose, xylose, etc.). Macro- and microelements (potassium, sodium, phosphorus, calcium, manganese, iron, zinc, copper, selenium, nickel and others).</p>
+                <div class="invoice b-radius">
+                  <ul>
+                    <li><span>Calories</span><span>12.5</span></li>
+                    <li><span>Total carbohydrates</span><span>3 gr</span></li>
+                    <li><span>Total Sugar</span><span>2 gr</span></li>
+                    <li><span>Vitamin A</span><span>2.5 mgr</span></li>
+                    <li><span>Copper</span><span>25 mgr</span></li>
+                    <li><span>Zinc</span><span>25 mgr</span></li>
+                    <li><span>Calcium</span><span>5 mgr</span></li>
+                    <li><span>Zinc</span><span>7 mgr</span></li>
+                  </ul>
+                </div>
+      </div>
+      <div class="description"> 
+        <div class="title title_h5 title_f-weight-medium">About</div>
+        <p>Premium product – the best natural immunomodulator. <br><span class="f-weight-medium">100% pure cold-pressed black cumin oil from the royal variety Nigella Sativa.</span></p>
+        <p>Due to its rich composition, black cumin oil has:</p>
+        <p>Immunomodulatory, anti-inflammatory, anti-allergic, bactericidal, analgesic, antipyretic, expectorant, sedative, diuretic, choleretic, antispasmodic, antiparasitic, mucosal restorative, anti-sclerotic, antiviral, rejuvenating and other effects.</p>
+        <p>Normalizes weight, improves brain function, increases mental and physical activity. It is also used for the prevention of gastritis, colitis, pancreatitis, gallstone disease.</p>
+        <p>To date, a number of studies have shown that black cumin oil and its components have shown remarkable natural therapy for the treatment of a wide range of diseases, while no side effects were noted.</p>
+        <p>That's why this product should be in every home!</p>
+        <p> <span class="f-weight-medium">60 capsules <br></span>Halal capsule shell: gelatin, glycerin, purified water.</p>
+        <div class="description">
+          <div class="title title_h5 title_f-weight-medium">Instructions for use</div>
+          <p><span class="f-weight-medium">Adults take 1 capsule 2 times a day 30 minutes before meals.</span>Our black cumin oil is not recommended to be taken later than 6 pm, as taking the drug in the evening can cause insomnia.</p>
+        </div>
+        <div class="share"> 
+          <p class="f-weight-medium">Share:</p>
+          <div class="social"> 
+            <ul>
+              <li> <a href="#" target="_blank"> 
+                  <div class="icon">
+                    <svg>
+                      <use xlink:href="sprite.svg#instagram"></use>
+                    </svg>
+                  </div><span>Instagram</span></a></li>
+              <li> <a href="#" target="_blank"> 
+                  <div class="icon">
+                    <svg>
+                      <use xlink:href="sprite.svg#facebook"></use>
+                    </svg>
+                  </div><span>Facebook</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/app.min.js"> </script>
+</body>
