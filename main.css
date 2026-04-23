@@ -33,10 +33,11 @@ section {
 body {
   cursor: default;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe
- UI", Roboto,
-    " Helvetica Neue", Arial, sans-serif, " Apple Color Emoji",
-    " Segoe UI Emoji", " Segoe UI Symbol", " Noto Color Emoji";
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe
+ UI", Roboto, " Helvetica Neue",
+    Arial, sans-serif, " Apple Color Emoji", " Segoe UI Emoji",
+    " Segoe UI Symbol", " Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -166,9 +167,10 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation
- Mono",
-    " Courier New", monospace;
+  font-family:
+    SFMono-Regular, Menlo, Monaco, Consolas, "Liberation
+ Mono", " Courier New",
+    monospace;
   font-size: 1em;
 }
 pre {
@@ -1535,7 +1537,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.flabMain {
+.portfolio-main {
   height: 100vh;
   background-size: cover;
   background-position: top;
@@ -1546,12 +1548,12 @@ body {
 }
 
 @media (max-width: 575.98px) {
-  .flabMain {
+  .portfolio-main {
     background-position: left;
   }
 }
 
-.flabMain__top {
+.portfolio-main__top {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -1562,20 +1564,18 @@ body {
 }
 
 @media (max-width: 1199.98px) {
-  .flabMain__top {
+  .portfolio-main__top {
     padding-top: 20px;
   }
 }
 
 @media (max-width: 991.98px) {
-  .flabMain__top {
+  .portfolio-main__top {
     padding-bottom: 20px;
   }
 }
 
-
-
-.flabMain__caption {
+.portfolio-main__caption {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1586,43 +1586,43 @@ body {
 }
 
 @media (max-width: 991.98px) {
-  .flabMain__caption {
+  .portfolio-main__caption {
     font-size: 30px;
     padding-bottom: 10px;
   }
 }
 @media (max-width: 767.98px) {
-  .flabMain__caption {
+  .portfolio-main__caption {
     padding-bottom: 20px;
     font-size: 25px;
   }
 }
 
 @media (max-width: 575.98px) {
-  .flabMain__caption {
+  .portfolio-main__caption {
     font-size: 30px;
   }
 }
 
-.flabMain__list {
+.portfolio-main__list {
   overflow: hidden;
   height: 80vh;
   padding-left: 5%;
 }
 
 @media (max-width: 767.98px) {
-  .flabMain__list {
+  .portfolio-main__list {
     height: 70vh;
   }
 }
 
 @media (max-width: 575.98px) {
-  .flabMain__list {
+  .portfolio-main__list {
     height: 65vh;
   }
 }
 
-.flabMain__list a {
+.portfolio-main__list a {
   margin-bottom: 12px;
   font-size: 18px;
   color: #a6a4a4;
@@ -1635,41 +1635,41 @@ body {
 }
 
 @media (max-width: 991.98px) {
-  .flabMain__list a {
+  .portfolio-main__list a {
     font-size: 16px;
   }
 }
 
 @media (max-width: 767.98px) {
-  .flabMain__list a {
+  .portfolio-main__list a {
     font-size: 15px;
   }
 }
 
 @media (max-width: 575.98px) {
-  .flabMain__list a {
+  .portfolio-main__list a {
     font-size: 13px;
   }
 }
 
-.flabMain__list a:hover {
+.portfolio-main__list a:hover {
   /* color: #102948; */
   color: #ffffff;
   transition: all 0.3s;
 }
 
-.flabMain__listWrap {
+.portfolio-main__listWrap {
   padding-left: 5%;
 }
 
 @media (max-width: 767.98px) {
-  .flabMain__listWrap {
+  .portfolio-main__listWrap {
     padding-left: 7%;
   }
 }
 
 @media (max-width: 575.98px) {
-  .flabMain__listWrap {
+  .portfolio-main__listWrap {
     padding-left: 10%;
   }
 }

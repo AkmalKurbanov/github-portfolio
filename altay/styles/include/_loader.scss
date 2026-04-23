@@ -1,9 +1,9 @@
 $time: 4s;
 $size: 40px;
-$inner:  0.6 * $size;
+$inner: 0.6 * $size;
 $pad: ($size - $inner) / 2;
 
-.flabLoader {
+.portfolio-loader {
   background: $third_color;
   position: fixed;
   right: 0;
@@ -33,7 +33,7 @@ $pad: ($size - $inner) / 2;
     animation-name: loader;
     z-index: 9999;
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: auto;
       left: auto;
@@ -134,7 +134,13 @@ $pad: ($size - $inner) / 2;
 }
 
 @keyframes bg {
-  0% { background: $third_color; }
-  50% { background: $primary_color; }
-  100% { background: $third_color; }
+  0% {
+    background: $third_color;
+  }
+  50% {
+    background: $primary_color;
+  }
+  100% {
+    background: $third_color;
+  }
 }
