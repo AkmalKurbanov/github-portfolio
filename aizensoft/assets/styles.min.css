@@ -3459,7 +3459,7 @@ button,input {
   font-size: 2.5rem;
 }
 
-.portfolio {
+.flabMain {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3469,7 +3469,7 @@ button,input {
 }
 
 @media (max-width:575.98px) {
-  .portfolio {
+  .flabMain {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: 100%;
@@ -3477,7 +3477,7 @@ button,input {
   }
 }
 
-.portfolio__item {
+.flabMain__item {
   -ms-flex-preferred-size: 33.33%;
   flex-basis: 33.33%;
   display: -webkit-box;
@@ -3496,14 +3496,14 @@ button,input {
 }
 
 @media (max-width:1199.98px) {
-  .portfolio__item {
+  .flabMain__item {
     height: 18.75rem;
     padding: 0 1.25rem 1.25rem;
   }
 }
 
 @media (max-width:991.98px) {
-  .portfolio__item {
+  .flabMain__item {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     height: 21.875rem;
@@ -3511,23 +3511,23 @@ button,input {
 }
 
 @media (max-width:767.98px) {
-  .portfolio__item {
+  .flabMain__item {
     height: 18.75rem;
   }
 }
 
 @media (max-width:575.98px) {
-  .portfolio__item {
+  .flabMain__item {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
 }
 
-.portfolio__item .more * {
+.flabMain__item .more * {
   color: #fff;
 }
 
-.portfolio__item:last-child {
+.flabMain__item:last-child {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -3538,12 +3538,12 @@ button,input {
 }
 
 @media (max-width:575.98px) {
-  .portfolio__item:last-child {
+  .flabMain__item:last-child {
     height: 8.125rem;
   }
 }
 
-.portfolio__item:last-child:hover .portfolio__item-bg span {
+.flabMain__item:last-child:hover .flabMain__item-bg span {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
@@ -3551,26 +3551,26 @@ button,input {
 }
 
 @media (max-width:1199.98px) {
-  .portfolio__item:last-child:hover .portfolio__item-bg span {
+  .flabMain__item:last-child:hover .flabMain__item-bg span {
     margin: 0 1.875rem;
   }
 }
 
-.portfolio__item:last-child:hover .portfolio__item-bg span:nth-child(2) {
+.flabMain__item:last-child:hover .flabMain__item-bg span:nth-child(2) {
   -webkit-transform: scale(2.5);
   -ms-transform: scale(2.5);
   transform: scale(2.5);
 }
 
 @media (max-width:1199.98px) {
-  .portfolio__item:last-child:hover .portfolio__item-bg span:nth-child(2) {
+  .flabMain__item:last-child:hover .flabMain__item-bg span:nth-child(2) {
     -webkit-transform: scale(1.5);
     -ms-transform: scale(1.5);
     transform: scale(1.5);
   }
 }
 
-.portfolio__item:last-child:hover .portfolio__item-bg span:nth-child(2):before {
+.flabMain__item:last-child:hover .flabMain__item-bg span:nth-child(2):before {
   -webkit-transform: translate(-50%,-50%) scale(3);
   -ms-transform: translate(-50%,-50%) scale(3);
   transform: translate(-50%,-50%) scale(3);
@@ -3578,15 +3578,15 @@ button,input {
   margin: 0;
 }
 
-.portfolio__item:last-child:before {
+.flabMain__item:last-child:before {
   display: none;
 }
 
-.portfolio__item:last-child .more * {
+.flabMain__item:last-child .more * {
   color: #000;
 }
 
-.portfolio__item:before {
+.flabMain__item:before {
   position: absolute;
   content: '';
   top: 0;
@@ -3601,35 +3601,35 @@ button,input {
   opacity: 0;
 }
 
-.portfolio__item:hover:before {
+.flabMain__item:hover:before {
   opacity: 1;
 }
 
-.portfolio__item:hover .portfolio__bg-img {
+.flabMain__item:hover .flabMain__bg-img {
   -webkit-transform: translate(-50%,-50%) scale(1.4);
   -ms-transform: translate(-50%,-50%) scale(1.4);
   transform: translate(-50%,-50%) scale(1.4);
 }
 
-.portfolio__item:hover .portfolio__main-img {
+.flabMain__item:hover .flabMain__main-img {
   -webkit-transform: translate(-50%,-50%) scale(.78);
   -ms-transform: translate(-50%,-50%) scale(.78);
   transform: translate(-50%,-50%) scale(.78);
 }
 
-.portfolio__item img {
+.flabMain__item img {
   width: auto;
 }
 
-.portfolio__item * {
+.flabMain__item * {
   color: #fff;
 }
 
-.portfolio__item :after {
+.flabMain__item :after {
   background-color: #fff;
 }
 
-.portfolio__img-block {
+.flabMain__img-block {
   width: 100%;
   height: 100%;
   display: -webkit-box;
@@ -3646,7 +3646,7 @@ button,input {
   left: 0;
 }
 
-.portfolio__bg-img,.portfolio__main-img {
+.flabMain__bg-img,.flabMain__main-img {
   position: absolute;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
@@ -3658,22 +3658,22 @@ button,input {
   transform: translate(-50%,-50%);
 }
 
-.portfolio__category {
+.flabMain__category {
   color: #fff;
   font-weight: 500;
 }
 
 @media (max-width:1199.98px) {
-  .portfolio__category {
+  .flabMain__category {
     font-size: .875rem;
   }
 }
 
-.portfolio__bottom-info,.portfolio__top-info {
+.flabMain__bottom-info,.flabMain__top-info {
   z-index: 1;
 }
 
-.portfolio__bottom-info {
+.flabMain__bottom-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3684,7 +3684,7 @@ button,input {
 }
 
 @media (max-width:991.98px) {
-  .portfolio__bottom-info {
+  .flabMain__bottom-info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -3692,7 +3692,7 @@ button,input {
   }
 }
 
-.portfolio__title {
+.flabMain__title {
   color: #fff;
   font-size: 1.875rem;
   font-weight: 700;
@@ -3700,19 +3700,19 @@ button,input {
 }
 
 @media screen and (max-width:1400px) {
-  .portfolio__title {
+  .flabMain__title {
     font-size: 1.5625rem;
     line-height: 2.0625rem;
   }
 }
 
 @media (max-width:1199.98px) {
-  .portfolio__title {
+  .flabMain__title {
     font-size: 1rem;
   }
 }
 
-.portfolio__item-bg {
+.flabMain__item-bg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3727,7 +3727,7 @@ button,input {
   transform: translate(-50%,-50%);
 }
 
-.portfolio__item-bg span {
+.flabMain__item-bg span {
   width: 2.1875rem;
   height: 2.1875rem;
   border-radius: 100%;
@@ -3739,7 +3739,7 @@ button,input {
   transition: all .3s;
 }
 
-.portfolio__item-bg span:nth-child(2) {
+.flabMain__item-bg span:nth-child(2) {
   width: 4.6875rem;
   height: 4.6875rem;
   background-color: #ececec;
@@ -3751,7 +3751,7 @@ button,input {
   align-items: center;
 }
 
-.portfolio--filter .portfolio__item:last-child {
+.flabMain--filter .flabMain__item:last-child {
   display: none;
 }
 

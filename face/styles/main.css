@@ -15549,27 +15549,27 @@ div.tabs div h2 {
   }
 }
 
-.portfolio {
+.flabMain {
   padding: 35px 0 40px;
 }
 
-.portfolio .blog__choose {
+.flabMain .blog__choose {
   border-bottom: 1px solid #eff1f5;
 }
 
-.portfolio .blog__choose ul li {
+.flabMain .blog__choose ul li {
   margin-right: 5px;
 }
 
-.portfolio .blog__choose ul li a {
+.flabMain .blog__choose ul li a {
   padding: 7px 5px 10px;
 }
 
-.portfolio__search {
+.flabMain__search {
   position: relative;
 }
 
-.portfolio__search button {
+.flabMain__search button {
   position: absolute;
   top: 0;
   right: 0;
@@ -15582,27 +15582,27 @@ div.tabs div h2 {
   outline: none;
 }
 
-.portfolio__search button i {
+.flabMain__search button i {
   font-size: 18px;
   color: #828282;
 }
 
-.portfolio__input-wrap {
+.flabMain__input-wrap {
   display: block;
 }
 
-.portfolio__input-wrap ::-webkit-input-placeholder {
+.flabMain__input-wrap ::-webkit-input-placeholder {
   color: #cccccc;
   font-size: 18px;
 }
 
 @media (max-width: 767px) {
-  .portfolio__input-wrap ::-webkit-input-placeholder {
+  .flabMain__input-wrap ::-webkit-input-placeholder {
     font-size: 16px;
   }
 }
 
-.portfolio__input-wrap input {
+.flabMain__input-wrap input {
   max-width: 100%;
   width: 100%;
   min-height: 48px;
@@ -15611,11 +15611,11 @@ div.tabs div h2 {
   outline: none;
 }
 
-.portfolio__tiles {
+.flabMain__tiles {
   text-align: center;
 }
 
-.portfolio .element-item {
+.flabMain .element-item {
   max-width: 360px;
   width: 100%;
   position: relative;
@@ -15624,7 +15624,7 @@ div.tabs div h2 {
   margin-top: 30px;
 }
 
-.portfolio .element-item:hover:before {
+.flabMain .element-item:hover:before {
   position: absolute;
   content: '';
   background-color: rgba(0, 0, 0, 0.5);
@@ -15634,20 +15634,20 @@ div.tabs div h2 {
   left: 0;
 }
 
-.portfolio .element-item:hover .portfolio__caption-item-top {
+.flabMain .element-item:hover .flabMain__caption-item-top {
   opacity: 100;
 }
 
-.portfolio .element-item:hover .portfolio__caption-item-bottom {
+.flabMain .element-item:hover .flabMain__caption-item-bottom {
   opacity: 100;
 }
 
-.portfolio .element-item img {
+.flabMain .element-item img {
   width: 100%;
   max-width: 100%;
 }
 
-.portfolio__caption-item-top {
+.flabMain__caption-item-top {
   width: 100%;
   max-width: 100%;
   text-align: center;
@@ -15659,7 +15659,7 @@ div.tabs div h2 {
   transition: all .5s ease;
 }
 
-.portfolio__caption-item-top p {
+.flabMain__caption-item-top p {
   font-size: 20px;
   text-transform: uppercase;
   color: #fff;
@@ -15668,7 +15668,7 @@ div.tabs div h2 {
   font-family: 'ProximaNova';
 }
 
-.portfolio__caption-item-bottom {
+.flabMain__caption-item-bottom {
   padding: 15px 15px;
   background-color: #092033;
   position: absolute;
@@ -15680,12 +15680,12 @@ div.tabs div h2 {
 }
 
 @media (max-width: 767px) {
-  .portfolio__caption-item-bottom {
+  .flabMain__caption-item-bottom {
     padding: 10px 10px;
   }
 }
 
-.portfolio__caption-item-bottom span {
+.flabMain__caption-item-bottom span {
   border-bottom: 1px solid #fff;
   display: block;
   padding-bottom: 15px;
@@ -15693,33 +15693,33 @@ div.tabs div h2 {
 }
 
 @media screen and (max-width: 1199px) {
-  .portfolio__caption-item-bottom span {
+  .flabMain__caption-item-bottom span {
     padding-bottom: 10px;
     margin-bottom: 10px;
   }
 }
 
 @media (max-width: 767px) {
-  .portfolio__caption-item-bottom span {
+  .flabMain__caption-item-bottom span {
     padding-bottom: 10px;
     margin-bottom: 10px;
   }
 }
 
-.portfolio__caption-item-bottom p {
+.flabMain__caption-item-bottom p {
   font-size: 18px;
   color: #fff;
   margin: 0;
 }
 
 @media screen and (max-width: 1199px) {
-  .portfolio__caption-item-bottom p {
+  .flabMain__caption-item-bottom p {
     font-size: 16px;
   }
 }
 
 @media (max-width: 767px) {
-  .portfolio__caption-item-bottom p {
+  .flabMain__caption-item-bottom p {
     font-size: 16px;
   }
 }
